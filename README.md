@@ -1,8 +1,10 @@
-﻿### A simple Terraform Infrastructure which will install an EC2 with all its necessities and run a user data template.
+﻿### A Terraform Infrastructure which will install an EC2 with all its necessities and run a bootstrapped template.
  <hr>
  
  #### Configured to run within us-east-1 (See providers.tf)
  ##### _Credentials key file is set within ~/.aws/credentials - Please create or use a different approach._
+ ##### _SSH Key will need to be created using the following_
+ - ssh-keygen -t ed25519 > You'll need to rename it to ec2 otherwise please edit the aws_key_pair resource under main.tf.
 
 ## *Its purpose is to serve the following configuration*
 ```
