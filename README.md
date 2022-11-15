@@ -26,7 +26,4 @@ Key pair - SSH Connectivity.
 AMI - Ubuntu 22.04.1 LTS (Jammy Jellyfish).
 EC2 Instance - Increased default volume size to 10 and launched a user_data template to install dockerfile.
 ```
-
-###### *This project serves no purpose but hands on.*
-  
   
