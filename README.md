@@ -1,4 +1,4 @@
-﻿### A Terraform Infrastructure which will install an EC2 with all its necessities and run a bootstrapped template.
+﻿### A Terraform Infrastructure which provisions an EC2 with all its necessities and run a bootstrapped template.
  <hr>
  
  ##### _Credentials key file is set within ~/.aws/credentials - Please create or use a different approach. [refer to documentation](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)_
